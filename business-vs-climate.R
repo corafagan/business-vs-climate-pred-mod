@@ -1,3 +1,32 @@
+# ===============================================================
+# Script Name:     business-vs-climate.R
+# Project:         Business vs. Climate Priority Prediction
+# Author:          Cora Fagan
+# Date Created:    2025-04-10
+# Last Updated:    2025-06-29
+# 
+# Description: 
+#   This script fits an XGBoost classifier to predict respondents' 
+#   environmental vs. economic policy priorities using BES 2017 data.
+#   Includes preprocessing, SMOTE balancing, model training, and 
+#   F1-based evaluation.
+# 
+# How to Run:
+#   - Ensure working directory is project root
+#   - Load required packages (see below)
+#   - Run linearly or source entire script
+#   - Retrieve original data from the British Election Survey
+# 
+# Dependencies:
+#   - R version >= 4.4.2 
+# 
+# Outputs:
+#   - 2 distribution plots
+#   - Confidence Matrix 
+# 
+# Notes:
+#   - See README.md for project overview
+# ===============================================================
 
 #### Load Required Libraries ####
 
